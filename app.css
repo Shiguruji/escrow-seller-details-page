@@ -18,15 +18,16 @@ body {
   flex-direction: column;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2.6rem 9rem;
 }
 
 img {
-  height: 3.293rem;
-  width: 10.786rem;
+  height: 3.3rem;
+  width: 10.8rem;
 }
 
 ul {
@@ -104,7 +105,7 @@ label.social,
 label.phone {
   font-weight: 500;
   font-size: 1.4rem;
-  line-height: 1.69rem;
+  line-height: 1.7rem;
   color: rgba(4, 11, 82, 0.8);
 }
 
