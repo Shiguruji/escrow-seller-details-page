@@ -22,7 +22,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.6rem 9rem;
+  padding: 2.4rem 13rem;
 }
 
 img {
@@ -37,7 +37,7 @@ ul {
 }
 
 li {
-  margin: 0 2.5rem;
+  padding-left: 4rem;
 }
 
 li a {
@@ -47,7 +47,7 @@ li a {
 }
 
 .button-container {
-  margin: 3rem 9rem;
+  margin: 3rem 13rem;
 }
 
 .btn {
