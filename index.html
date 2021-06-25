@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Escrow Seller Details Form">
+    <title>Escrow Seller Details</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="Logo.svg" alt="Escrow Logo" />
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Transactions</a></li>
+                <li><a href="#">My Profile</a></li>
+            </ul>
+        </header>
+
+        <div class="button-container">
+            <button type="button" class="btn">Customer</button>
+        </div>
+
+        <form>
+                <h2>Seller Details</h2>
+
+                <div class="name-container">
+                    <label for="name" class="name">Name of seller / Company</label>
+                    <input type="text" id="name" required name="name"/>
+                </div>
+
+                <div class="social-container">
+                    <label for="social" class="social">Social media handle</label>
+                    <input type="text" id="social" required name="social"/>
+                </div>
+            
+                <div class="phone-container">
+                    <label for="phone" class="phone">Phone number</label>
+                    <input type="text" id="phone" required name="phone"/>
+                </div>
+
+                <div class="action">
+                    <a href="#" class="action-btn">Next</a>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
