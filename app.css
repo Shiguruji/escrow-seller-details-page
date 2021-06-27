@@ -22,12 +22,18 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.4rem 13rem;
+  padding: 2.4rem 11.1% 3.4rem;
 }
 
-img {
+img#logo {
   height: 3.3rem;
   width: 10.8rem;
+}
+
+img#menu {
+  display: none;
+  width: 2.4rem;
+  height: 2rem;
 }
 
 ul {
@@ -47,7 +53,7 @@ li a {
 }
 
 .button-container {
-  margin: 3rem 13rem;
+  margin: 3rem 11.1%;
 }
 
 .btn {
@@ -70,8 +76,12 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 3rem auto;
-  padding: 4.8rem 6.4rem;
+  align-self: center;
+  height: 48.9rem;
+  width: 44.7rem;
+  margin-bottom: 17.9rem;
+  margin-top: 1.8rem;
+  padding: 4.8rem 8.5rem 3.6rem 6.4rem;
   background: #f0f2fe;
   border-radius: 4px;
 }
@@ -96,7 +106,7 @@ h2 {
 }
 
 .name-container {
-  margin-top: 3rem;
+  margin-top: 4.8rem;
 }
 
 label.name,
@@ -120,8 +130,8 @@ input#phone {
 }
 
 .action {
-  margin-top: 4.8rem;
-  margin-bottom: 1rem;
+  margin-top: 6.2rem;
+  margin-bottom: 1.4rem;
 }
 
 .action-btn {
@@ -136,4 +146,43 @@ a.action-btn {
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.9rem;
+}
+
+@media screen and (max-width: 800px) {
+  ul {
+    display: none;
+  }
+
+  nav {
+    padding: 2.4rem 8.6% 3.4rem;
+  }
+
+  img#menu {
+    display: block;
+  }
+
+  .button-container {
+    margin: 3rem 8.6%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 32.7rem;
+    padding: 3.2rem 2.3rem 5.2rem;
+  }
+
+  input#name,
+  input#social,
+  input#phone {
+    width: 28.1rem;
+  }
+
+  nav {
+    padding: 4rem 6.5% 3.1rem;
+  }
+
+  .button-container {
+    margin: 1.4rem 6.5%;
+  }
 }
