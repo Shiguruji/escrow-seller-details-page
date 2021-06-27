@@ -150,11 +150,31 @@ a.action-btn {
 
 @media screen and (max-width: 800px) {
   ul {
-    display: none;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background:#FEFEFF;
+    top: 8rem;
+    left: -100%;
+    transition: all .5s;
+    text-align: center;
+  }
+
+  ul li {
+    margin-bottom: 2.4rem;
+  }
+
+  ul li.shift {
+    margin-top: 5.9rem;
+  }
+
+  .nav-links.show {
+    left: 0;
   }
 
   nav {
-    padding: 2.4rem 8.6% 3.4rem;
+    padding: 4rem 8.6% 3.4rem;
   }
 
   img#menu {
