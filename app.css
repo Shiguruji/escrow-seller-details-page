@@ -186,7 +186,7 @@ a.action-btn {
     border: none;
   }
 
-  .test:focus {
+  .test.highlight {
     background-color: lightblue;
   }
 
